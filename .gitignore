@@ -7,14 +7,29 @@
 node_modules/
 dist/
 
+# Byte-compiled / optimized / DLL files
+__pycache__/
+**/pytest_cache/**
+*.py[cod]
+*$py.class
+**/*.egg-info
+
+# data for examples, see dropbox AQ\KIROS\PAPERS\ComentariosDeLecturas\Python\Ejemplos for the files
+
+ExamplesRepo/**
+
+# Doxygen doc
+
+DoxyDoc/**
+
 # Compiled Java class files
 *.class
 
-# Compiled Python bytecode
-*.py[cod]
-
 # Log files
 *.log
+
+# IPython Notebook
+.ipynb_checkpoints
 
 # Package files
 *.jar
@@ -25,6 +40,9 @@ dist/
 
 # JetBrains IDE
 .idea/
+
+# virtualenv
+venv/**
 
 # Unit test reports
 TEST*.xml
