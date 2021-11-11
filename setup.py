@@ -14,5 +14,5 @@ setup(
     # for checking requirements (and use them for generate requirements.txt file) run $ pip freeze
     install_requires=['numpy==1.21.4', 'opencv-python==4.5.4.58',
                       'matplotlib==3.4.3', 'scikit-image==0.18.3',
-                      'jupyter==1.0.0', 'PyQt5==5.15.6']
+                      'jupyter==1.0.0', 'PyQt5==5.15.6', 'ipynb==0.5.1']
 )
