@@ -65,7 +65,7 @@ app = QApplication([])
 app.setStyle('Fusion')
 
 # In addition to the above, you can change the appearance of your application via style sheets.
-# This is Qt's analogue of CSS. We can use this for example to add some spacing:
+# This is Qt's analogue of CSS. We can use this for example to add some spacing for all the QPushButton child
 app.setStyleSheet("QPushButton { margin: 3ex; }")
 
 # Everything you see in a (Py)Qt app is a widget: Buttons, labels, windows, dialogs, progress bars etc.
