@@ -8,20 +8,16 @@ This README document whatever steps are necessary to get the ejemplosPythonaq pr
 * Version AQ 
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
-### How do I get set up? AQ11NOV21 TBD  ###
+### How do I get set up? ###
 
-* Install Python 3.8
-* Install Pycharm
+* create enviroment with  "conda env create -f base37Examples.yml" 
 * Clone ejemplosPythonaq at the desired WD and checkout branch main
 * Actualize (possible) git submodules running from command line
 	+ $ git submodule init
 	+ $ git submodule update
-* Open the project with pycharm and create a new venv
-	+ select new environment using “Virtualenv”
-	+ select Python38 as 'base interpreter'
-* Install project dependencies running from command line (pay attention to the dot of "e .")
-	+ $ pip install -e . 
-* To verify installation run TBD AQ29OCT
+* open anaconda prompt and activate former conda enviroment
+	+ chdir to the WD and run VS Code with "code ."
+	+ chdir to WD and run "jupyter notebook"
 
 ### Contribution guidelines AQ28OCT21 TBD ###
 

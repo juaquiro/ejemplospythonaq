@@ -10,4 +10,4 @@ for f in fs:
     plt.plot(t, y, label='{} Hz'.format(f))
 
 plt.legend()
-plt.savefig('basics_python.pdf')
+plt.savefig('data/basics_python.pdf')

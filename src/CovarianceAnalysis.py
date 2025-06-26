@@ -12,7 +12,7 @@ import imageio
 
 # Read the image in grey-scale. We want the indexes of the white pixels to find the axes of the blob.
 MAXGV: int=255 # MaxGV for normalization
-img = imageio.imread('oval.png') / MAXGV #image is [0,1]
+img = imageio.imread('data/oval.png') / MAXGV #image is [0,1]
 y, x = np.nonzero(img)
 
 # Subtract mean from each dimension. We now have our 2xm matrix.

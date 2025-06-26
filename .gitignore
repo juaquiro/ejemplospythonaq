@@ -18,6 +18,7 @@ __pycache__/
 
 # data for examples, see dropbox AQ\KIROS\PAPERS\ComentariosDeLecturas\Python\Ejemplos for the files
 
+data/**
 ExamplesRepo/**
 
 # Doxygen doc
