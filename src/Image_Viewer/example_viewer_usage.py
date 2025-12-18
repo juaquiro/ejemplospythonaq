@@ -3,8 +3,17 @@
 example_viewer_usage.py
 
 Simple usage example for the PyQt6-only image viewer.
+
 Run:
     python example_viewer_usage.py
+
+Tips inside the viewer
+----------------------
+- Hover image: crosshair + X/Y profiles update live
+- Arrow keys: fine cursor movement (when cursor is over the image)
+- Tools -> Line profile (2 clicks): click 2 points to open a live-updating profile window
+  Drag the endpoints (the two circular markers) to update the profile.
+- "Profile avg ±k" control: averaging width for X/Y profiles and line profile.
 """
 import numpy as np
 from image_viewer_app import launch_image_viewer
